@@ -1,0 +1,39 @@
+@font-face {
+    font-family: OldStandard;
+    src: url('OldStandard-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OldStandard;
+    src: url('OldStandard-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OldStandard;
+    src: url('OldStandard-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: OldStandard;
+    src: url('OldStandard-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Xenon ; src: url('MonaspaceXenon-Light.woff2');
+}
+
+body {
+    font-family : OldStandard;
+}
+
+code, tt {
+    font-family: Xenon;
+}
