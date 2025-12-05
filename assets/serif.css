@@ -1,32 +1,49 @@
 @font-face {
-    font-family: OldStandard;
+    font-family: MFBOldStyle;
     src: url('MFBOldstyle-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: OldStandard;
+    font-family: MFBOldStyle;
     src: url('MFBOldstyle-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: OldStandard;
+    font-family: MFBOldStyle;
     src: url('MFBOldstyle-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: Xenon ; src: url('MonaspaceXenon-Light.woff2');
+    font-family: MonaspaceXenon;
+    src: url('MonaspaceXenon-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MonaspaceXenon;
+    src: url('MonaspaceXenon-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MonaspaceXenon;
+    src: url('MonaspaceXenon-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 body {
-    font-family : OldStandard;
+    font-family : MFBOldStyle;
 }
 
 code, tt {
-    font-family: Xenon;
+    font-family: MonaspaceXenon;
 }
